@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#fff;
+    
 }
 .btn-1{
     padding: 10px 30px;
@@ -106,6 +106,44 @@ h1{
     text-align: center; 
 }
 /* ------------------MATCHES AREA CSS-----------------  */
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    row-gap: 20px;
+    flex-grow: 1;
+
+}
+.match{
+    padding: 40px 20px;
+    border: 1px solid rgba(22, 22, 22, 0.2);
+    border-radius: 10px;
+}
+.flags{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.flags img{
+    width: 75px;
+    height: 55px;
+}
+.p3{
+    color: rgba(22, 22, 22, 1);
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.p4{
+    font-size: 16px;
+    color: rgba(77, 77, 77, 1);
+}
+
+
+.tab{
+    display: none;
+}
 
 /* ----------------FOOTER CSS--------------------  */
 
