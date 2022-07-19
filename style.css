@@ -107,6 +107,8 @@ h1{
     font-weight: 600;
     text-align: center; 
 }
+
+/* ---------------BLOGS AREA CSS------------------  */
 .blogs{
     display: grid;
     grid-template-columns: repeat(3,1fr);
